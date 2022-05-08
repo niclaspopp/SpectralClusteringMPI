@@ -6,4 +6,6 @@ This repository contains a parallel implementation of the spectral clustering al
 + PDE: results for partitioning an adjacency graph belonging to a sparse matrix related to  PDE
 + inputs: folder containing the input Laplacians for testing, timing and both applications
 
-![vis](vis.png)
+<img src="vis.png" 
+     width="400" 
+     height="500" />
