@@ -7,4 +7,5 @@ This repository contains a parallel implementation of the spectral clustering al
 + inputs: folder containing the input Laplacians for testing, timing and both applications
 
 <img src="vis.png" 
-     width="400"/>
+     width="400"
+     class="center"/>
