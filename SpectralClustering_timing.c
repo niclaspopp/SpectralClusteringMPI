@@ -702,6 +702,18 @@ int main(int argc, char *argv[]){
     endKM = MPI_Wtime();
     if (rank == MASTER)
         printf("k-means execution time: %e\n",endKM-startKM);
+// Store results to txt file, commented for timing
+/*
+if (rank == MASTER) {
+        const char *filename = "SpectralClustering_TestOutput.txt";
+        FILE *f;
+        f = fopen(filename, "w");
+        for (int i = 0;i < nprocs * sites_per_proc;i++, site += d) {
+            fprintf(f,"%d\n", all_labels[i]);
+        }
+        fclose(f);
+}
+*/
 
 
     MPI_Finalize();
